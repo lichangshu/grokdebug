@@ -5,13 +5,13 @@
 				%span.icon-bar
 				%span.icon-bar
 				%span.icon-bar
-			%a.brand{:href => '/'} Grok Debugger
+			%a.brand{:href => '/'} Grok Debugger - CN
 			.nav-collapse
 				%ul.nav
 					%li{:class => ('active' if request.path_info == '/')}
 						%a{:href => '/'}Debugger
 					%li{:class => ('active' if request.path_info == '/discover')}
-						%a{:href => '/discover?#', :target => '_blank'} Discover
+						%a{:href => '/discover?#'} Discover
 					%li{:class => ('active' if request.path_info == '/patterns')}
-						%a{:href => '/patterns', :target => '_blank'} Patterns
+						%a{:href => '/patterns'} Patterns
 				%p.navbar-text.pull-right
