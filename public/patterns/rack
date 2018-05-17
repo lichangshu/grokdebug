@@ -1,2 +1,0 @@
-UUID [0-9a-fA-F-]+
-RACK \[%{GREEDYDATA:descriptor}\] %{UUID:uuid} %{TIMESTAMP_ISO8601:timestamp} \- %{GREEDYDATA:message}

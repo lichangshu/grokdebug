@@ -1,2 +1,0 @@
-SW_STAMP %{MONTHDAY} %{MONTH} %{HOUR}:%{MINUTE}:%{SECOND}
-SWITCHBOARD {"level":%{QS:level},"message":"%{DATA:subscription_id}: %{GREEDYDATA:sub_state}","timestamp":"%{SW_STAMP:timestamp}"}
